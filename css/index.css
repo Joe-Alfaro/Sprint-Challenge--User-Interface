@@ -90,6 +90,19 @@ p {
 	color: black;
 }
 
+@keyframes link-hover {
+	from {font-size: 100%;}
+	to {font-size: 125%;}
+}
+
+.nav-bar nav a:hover {
+	animation-name: link-hover;
+	animation-duration: 2s;
+
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
 .top-image{
 	padding-bottom: 20px;
 }
@@ -122,6 +135,17 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+@keyframes spin {
+	from {transform: rotateZ(0deg);}
+	to {transform: rotateZ(360deg);}
+}
+
+.middle-content .boxes a:hover {
+	animation-name: spin;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
 }
 
 .middle-content .boxes .box {
