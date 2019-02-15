@@ -207,3 +207,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-top-content{
+	padding: 15px;
+	border-bottom: 1px dashed black;
+}
+
+.container-about-page button {
+	height: 40px;
+	width: 130px;
+	margin-top: 15px;
+	padding: 10px 15px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 12pt;
+}
+
+.about-middle-content .content {
+	padding: 15px 0;
+	margin: 0 auto;
+	border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+	height: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.about-middle-content h2 {
+	padding-top: 15px;
+}
+
+.about-middle-content .content {
+	width: 46%;
+}
+
+.about-bottom-content {
+	padding: 25px 15px;
+}
